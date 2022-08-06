@@ -1,3 +1,5 @@
-console.log("S=6a²\nv=a³");
-console.log("a=3");
-console.log("6*3²=54\n3³=27");
+let input=(result.input);
+let s=6*3**2
+let v=3**3
+
+console.log(s,v);
