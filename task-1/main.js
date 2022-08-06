@@ -10,6 +10,8 @@ var s=6*9
 var sum=s
 var sam=v
 console.log(sum,sam);
+  
+  prompt;input:54 27
 
 
   
