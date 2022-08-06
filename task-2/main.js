@@ -9,5 +9,6 @@ prompt.get('input', function (err, result) {
   var v=parseInt(numbers[1]); //3
   var sum=s*v**2
   var sam=v**3
-  console.log(sum,sam);
+  console.log(sum);
+    console.log(sam):
 });
