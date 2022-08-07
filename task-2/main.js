@@ -3,15 +3,18 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-
   
-  let input=(result.input);"3,10"
-let numbers=input.split(',');['3','10']
-let a=parseInt([0]);"3"
-
-let sim=Boolean(a*(a<=10**6));
+let input= result.input;"6,3"
+let numbers=input.split(',');['6','3']
+let s=parseInt(numbers[0]);6
+let v=parseInt(numbers[1]);3
+let sam=s*v**2
+let sim=v**3  
+let a=3
+let sum=Boolean(a*(a<=10**6));
+console.log(sam);
 console.log(sim);
-
+console.log(sum);
 
 
   
