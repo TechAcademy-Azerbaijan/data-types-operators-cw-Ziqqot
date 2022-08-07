@@ -3,16 +3,18 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
+ 
   
-    var number=parseInt(result.input); 
-var s=6*9
-  var v=3**3
-var sum=s
-var sam=v
-console.log(sum,sam);
-  
-  prompt;input:54 27
 
-
-  
+    let input= result.input; // "6,3"
+    let numbers=input.split(',');
+    let a=6
+    let b=3
+    let s=parseInt(numbers[0]);  //6
+    let v=parseInt(numbers[1]); //3
+    let sam=a*b**2
+    let sum=b**3
+  console.log(sam);
+    console.log(sum);
 });
+
