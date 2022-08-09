@@ -5,15 +5,10 @@ prompt.start();
 prompt.get('input', function (err, result) {
   
 
-let input= result.input;"6,3"
-let numbers=input.split(',');['6','3']
-let b=parseInt(numbers[0]);6
-let a=parseInt(numbers[1]);3
-let s=b*a**2
-let v=a**3  
-
-console.log(s);
-console.log(v);
+let a=parseInt(result.input)
+let s=parseInt(6*a**2);
+let v=(a**3);
+console.log(s,v);
 
 
   
