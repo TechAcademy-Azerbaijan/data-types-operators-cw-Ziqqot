@@ -4,11 +4,9 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-       let input=result.input;"26"
-let n=26;
-n=6
+    let i=parseInt(result.input);
+let a=i%10;
   
-  
-  console.log(n);
+  console.log(a);
   
 });
