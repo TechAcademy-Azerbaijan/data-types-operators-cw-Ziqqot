@@ -3,10 +3,9 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-   let input=(result.input);"512"
-  let n=512
-  n=51
-  console.log(n);
+     let a=(result.input);
+    let res=parseInt(a/10);
+    console.log(res);
   
   
 });
