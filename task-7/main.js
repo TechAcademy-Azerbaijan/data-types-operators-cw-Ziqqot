@@ -3,13 +3,12 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-      let input = result.input;"3456"
-    let numbers = input.split(',');['3', '4', '5', '6']
-    let z="6"
-let x="5"
-    let c="4"
-    let v="3"
-    let zxc=z+x+c+v
-    console.log(zxc);
+ let a = parseInt(result.input) //3456
+    let b=parseInt(a%10) //6
+    let c=parseInt((a%100)/10) //5
+    let d=parseInt((a%1000)/100) //4
+    let k=parseInt(a/1000) //3
+    let cvb=((b*1000)+(c*100)+(d*10)+(k*1));
+    console.log(cvb);
   
 });
