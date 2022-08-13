@@ -3,8 +3,12 @@ prompt.start();
 
 
 prompt.get('input', function (err, result) {
-let i=parseInt(result.input)
-let n=parseInt(i**3);
-console.log(n);
+let input=result.input;
+let number=input.split(" ");
+let x=parseInt(number[0]);
+let n=parseInt(number[1]);
+let m=parseInt(number[2]); 
+let cvb=(x**n)%m;
+console.log(cvb);
 });
 
