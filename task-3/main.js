@@ -4,7 +4,10 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
   
-let i=parseInt(result.input);
-let a=(i**10);
+let input=result.input;
+let number=input.split(',');
+let x=parseInt(number[0]);
+let n=parseInt(number[1]);
+let a=x**n;
 console.log(a);
 });
